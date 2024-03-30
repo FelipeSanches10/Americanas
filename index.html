@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Americanas</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            text-align: center;
+            padding: 10px;
+        }
+
+        
+        .form input,
+        .form textarea,
+        .form button{
+            display: block;
+            width: 100%;
+        }
+
+        body{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+        }
+
+        
+
+        form input[type=email],
+        form input[type=password] {
+            width: 100%;
+            height: 35px;
+            font-size: 10px;
+            padding-left: 8px;
+            outline: none;
+            border: 1px solid #ccc;
+        }
+
+        form button{
+            width: 103%;
+            height: 40px;
+            border: 1px solid red;
+            background-color: red;
+            color: white;
+            box-shadow: 5px 5px 5px rgba(0,0,0,);
+        }
+
+        .header{
+            background-color: red;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            width: 100%;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header class="header"></header>
+    <center><h2>Login do Cliente</h2></center>
+    <p>Veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</p>
+    <form>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Ex. joaodasilva@gmail.com" size="40">
+        <br>
+        <br>
+        <label for="senha">Senha na Americanas:</label>
+        <input type="password" name="senha" size="40" maxlength="10">
+        <br>
+        <br>
+        
+        <button type="submit">Continuar</button>
+    </form>
+    <p>não tem cadastro? <a href="">cadastre-se</a>
+        Ao continuar com o acesso, você concorda com a nossa <a href="">politica de privacidade</a>
+    </p>
+</body>
+</html>
